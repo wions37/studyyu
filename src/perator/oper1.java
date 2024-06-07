@@ -213,4 +213,300 @@ public class oper1 {
 //        }
 //    }
 
+//    public static void main(String[] args) {
+//        int age =14;
+//
+//        if (age <=7) {
+//            System.out.println("미취학");
+//        }
+//        if (age >= 8 && age <=13) {
+//            System.out.println("초딩");
+//        }
+//        if (age >= 14 && age <=16) {
+//            System.out.println("중딩");
+//        }
+//        if (age >=17 && age <=19) {
+//            System.out.println("고딩");
+//        } else {
+//            System.out.println("대딩");
+//        }
+
+    //    }
+//public static void main(String[] args) {
+//    int age =21;
+//
+//    if (age <=7) {
+//        System.out.println("미취학");
+//    }
+//     else if (age <=13) {
+//        System.out.println("초등학생");
+//    }
+//    else if (age <=16) {
+//        System.out.println("중딩");
+//    }
+//    else if (age <=19) {
+//        System.out.println("고딩");
+//    }
+//    else {
+//        System.out.println("성인");
+////    }
+//}
+//public static void main(String[] args) {
+//    int price =10000;
+//    int age =10;
+//    int discount =0;
+//
+//    if (price >= 10000) {
+//        discount = discount +1000;
+//        System.out.println("10000원이상 구매 ,1000원 할인");
+//    }
+//
+//    if (age <= 10) {
+//        discount = discount +1000;
+//        System.out.println("10살보다 어리면 ,1000원 할인");
+//    }
+//    System.out.println("총할인 금액" + discount +"원");
+//}
+//    public static void main(String[] args) {
+//        int price =10000;
+//        int age =10;
+//        int discount =0;
+//
+//        if (price >= 10000) {
+//            discount = discount +1000;
+//            System.out.println("10000원이상 구매 ,1000원 할인");
+//        }
+//
+//         else if (age <= 10) {
+//            discount = discount +1000;
+//            System.out.println("10살보다 어리면 ,1000원 할인");
+//        }
+//         else  {
+//            System.out.println("할인 없음");
+//        }
+//        System.out.println("총할인 금액" + discount +"원");
+//    }
+//    public static void main(String[] args) {
+//        int grade = 2;
+//        int coupon;
+//
+//        if (grade == 1) {
+//            coupon = 1000;
+//        } else if (grade == 2) {
+//            coupon = 2000;
+//        } else if (grade == 3) {
+//            coupon = 3000;
+//        } else {
+//            coupon = 500;
+//        }
+//        System.out.println("발급받은 쿠폰" + coupon);
+//    }
+
+//    public static void main(String[] args) {
+//        int grade = 2;
+//        int coupon;
+//        switch (grade) {
+//            case 1:
+//                coupon = 1000;
+//                break;
+//            case 2:
+//                coupon = 2000;
+//                break;
+//                case 3:
+//                    coupon = 3000;
+//                    break;
+//            default: coupon = 500;
+//        }
+//        System.out.println("발급받은 쿠폰"+coupon);
+//    }
+//    public static void main(String[] args) {
+//        int grade = 2;
+//        int coupon;
+//        switch (grade) {
+//            case 1:
+//                coupon = 1000;
+//                break;
+//            case 2:
+//                coupon = 2000;;
+//            case 3:
+//                coupon = 3000;
+//                break;
+//            default: coupon = 500;
+//        }
+//        System.out.println("발급받은 쿠폰"+coupon);
+//    }
+//public static void main(String[] args) {
+//    int grade = 2;
+//
+//    int coupon =switch (grade){
+//        case 1 -> 1000;
+//        case 2 -> 2000;
+//        case 3 -> 3000;
+//        default -> 500;
+//    };
+//    System.out.println("발급받은 쿠폰"+ coupon);
+//}
+//public static void main(String[] args) {
+//    int age =18;
+//    String status;
+//
+//    if (age >= 18){
+//        status ="성인";
+//    } else  {
+//        status ="미성년자";
+//    }
+//    System.out.println("age="+age+",status="+status);
+//
+//
+//
+//}
+//    public static void main(String[] args) {
+//        int age =16;
+//        String status= (age >= 18) ? "성인" : "미성년";
+////
+////        if (age >= 18){
+////            status ="성인";
+////        } else  {
+////            status ="미성년자";
+////        }
+//        System.out.println("age="+age+",status="+status);
+//
+//
+//
+//
+//    public static void main(String[] args) {
+//        int dollar =0;
+//
+//        if (dollar < 0 ){
+//            System.out.println("잘못된 금액입니다");
+//        } else if (dollar == 0 ) {
+//            System.out.println("환전할금액이 없습니다");
+//        } else{
+//            int won =dollar *1300;
+//            System.out.println("환전금액"+won +"원 입니다.");
+//        }
+//    }
+//public static void main(String[] args) {
+//    int dollar = 100;
+//
+//    if (dollar <0) {
+//        System.out.println("환전할 금액이 없습니다");
+//    } else if (dollar ==0) {
+//        System.out.println("환전할 금액이 없습니다");
+//    } else { int won = dollar * 1300;
+//        System.out.println("환전할 금액"+won+"원입니다.");
+//}
+//}
+//public static void main(String[] args) {
+//    double rating = 8;
+//
+//    if (rating <=9) {
+//        System.out.println("'어바웃 타임'을 추천합니다.");
+//    }
+//    if (rating <=8) {
+//        System.out.println("토이스토리'을 추천합니다.");
+//    }
+//    if (rating <=7) {
+//        System.out.println("'고질아라'을 추천합니다.");
+//    }
+//
+//}
+//
+//        public static void main(String[] args) {
+//            //grade 1:1000, 2:2000, 3:3000, 나머지: 500
+//            int grade = 2;
+//            int coupon;
+//            switch (grade) {
+//                case 1:
+//                    coupon = 1000;
+//                    break;
+//                case 2:
+//                    coupon = 2000;
+//                    break;
+//                case 3:
+//                    coupon = 3000;
+//                    break;
+//                default:
+//                    coupon = 500;
+//            }
+//            System.out.println("발급받은 쿠폰 " + coupon);
+//        }}
+
+
+//    public static void main(String[] args) {
+//        String gradeClass = "";
+//        String grade = "A";
+//
+//        switch (grade) {
+//            case "A" : gradeClass = "탁월한 성과입니다.";
+//                break;
+//            case "B": gradeClass ="좋은 성과입니다.";
+//                break;
+//            case "C"  :gradeClass ="준수한 성과입니다.";
+//                ;
+//                break;
+//            case "D": gradeClass ="준수한 성과입니다.";
+//                ;
+//                break;
+//        }
+//        System.out.println(gradeClass);
+//    }
+//
+//    public static void main(String[] args) {
+//        String gradeClass = "";
+//        String grade = "g";
+//
+//        switch (grade) {
+//            case "A" :
+//                System.out.println("탁월한 성과입니다.");
+//                break;
+//            case "B" :
+//                System.out.println("좋은.");
+//                break;
+//            case "C" :
+//                System.out.println("무난한.");
+//                ;
+//                break;
+//            case "D" :
+//                System.out.println("괜찮은.");
+//                ;
+//                break;
+//            default :
+//                System.out.println("잘못된");
+//        }
+//    }
+//public static void main(String[] args) {
+//    int a=30;
+//    int b=20;
+//    int max = (a>b) ? a:b;
+//    System.out.println("더큰 숫자는"+ max+ "입니다");
+//}
+//
+//    public static void main(String[] args) {
+//        int x= 3;
+//        String result = (x % 2 ==0)? "짝수": "홀수";
+//        System.out.println(result);
+//    }
+
+    //    public static void main(String[] args) {
+//        int count = 0;
+//
+//        while (count <=3) {
+//            count = count + 1;
+//            System.out.println("현재 숫자는:" + count);
+//
+//        }
+//
+//    }
+    public static void main(String[] args) {
+        int sum = 0;
+        int i = 1;
+        int endnum = 10;
+
+        while (i <= endnum) {
+            sum = sum + i;
+            System.out.println("i=" + i + " sum=" + sum);
+            i++;
+        }
+    }
 }
