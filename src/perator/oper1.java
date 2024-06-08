@@ -498,15 +498,51 @@ public class oper1 {
 //        }
 //
 //    }
-    public static void main(String[] args) {
-        int sum = 0;
-        int i = 1;
-        int endnum = 10;
+//    public static void main(String[] args) {
+//        int sum = 0;
+//        int i = 1;
+//        int endnum = 10;
+//
+//        while (i <= endnum) {
+//            sum = sum + i;
+//            System.out.println("i=" + i + " sum=" + sum);
+//            i++;
+//        }
+//    }
+//    public static void main(String[] args) {
+//        int count =0;
+//
+//        while (count <3){
+//            count += 1;
+//            System.out.println("현재 숫자"+count);
+//        }
+//    }
+//    public static void main(String[] args) {
+//        int sum = 0;
+//        int i = 2;
+//        int endNum = 100;
+//
+//        while (i <= endNum) {
+//
+//            sum += i;
+//            System.out.println("i=" + i + " sum " + sum);
+//            i++;
+//        }
+//    }
+//    public static void main(String[] args) {
+//        int i = 10;
+//        while (i<3){
+//            System.out.println("현재 숫자는"+i);
+//            i++;
+//        }
+//    }
+//    public static void main(String[] args) {
+//        int i = 10;
+//        do {
+//            System.out.println("현재 숫자는"+i);
+//            i++;
+//        } while (i<12);
+//    }
 
-        while (i <= endnum) {
-            sum = sum + i;
-            System.out.println("i=" + i + " sum=" + sum);
-            i++;
-        }
-    }
+
 }

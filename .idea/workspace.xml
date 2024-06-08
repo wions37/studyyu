@@ -79,6 +79,7 @@
       <workItem from="1717640719455" duration="19424000" />
       <workItem from="1717718200589" duration="445000" />
       <workItem from="1717765781468" duration="8454000" />
+      <workItem from="1717815361689" duration="7723000" />
     </task>
     <task id="LOCAL-00001" summary="check">
       <option name="closed" value="true" />
@@ -139,6 +140,16 @@
           <url>file://$PROJECT_DIR$/src/perator/oper1.java</url>
           <line>4</line>
           <option name="timeStamp" value="6" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" type="java-line">
+          <url>file://$PROJECT_DIR$/src/perator/oper1.java</url>
+          <line>491</line>
+          <option name="timeStamp" value="7" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" type="java-line">
+          <url>file://$PROJECT_DIR$/src/perator/oper1.java</url>
+          <line>3</line>
+          <option name="timeStamp" value="8" />
         </line-breakpoint>
       </breakpoints>
     </breakpoint-manager>
