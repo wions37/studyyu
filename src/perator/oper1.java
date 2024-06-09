@@ -1,7 +1,7 @@
 package perator;
 
 public class oper1 {
-    //    //    public static void main(String[] args) {
+//        //    public static void main(String[] args) {
 ////        int a =8;
 ////        int b =3;
 ////        int sum = a+b;
@@ -172,7 +172,7 @@ public class oper1 {
 //        System.out.println("sum = " + sum);
 //        System.out.println("average = " + average);
 //    }
-
+//
 //    public static void main(String[] args) {
 //        double val1 = 1.5;
 //        double val2 = 2.5;
@@ -193,8 +193,8 @@ public class oper1 {
 //
 //
 //    }
-
-    //    public static void main(String[] args) {
+//
+//        public static void main(String[] args) {
 //        int age = 15;
 //
 //      if (age >= 18) {
@@ -212,7 +212,7 @@ public class oper1 {
 //            System.out.println("미성년");
 //        }
 //    }
-
+//
 //    public static void main(String[] args) {
 //        int age =14;
 //
@@ -230,8 +230,8 @@ public class oper1 {
 //        } else {
 //            System.out.println("대딩");
 //        }
-
-    //    }
+//
+//        }
 //public static void main(String[] args) {
 //    int age =21;
 //
@@ -301,7 +301,7 @@ public class oper1 {
 //        }
 //        System.out.println("발급받은 쿠폰" + coupon);
 //    }
-
+//
 //    public static void main(String[] args) {
 //        int grade = 2;
 //        int coupon;
@@ -431,8 +431,8 @@ public class oper1 {
 //            }
 //            System.out.println("발급받은 쿠폰 " + coupon);
 //        }}
-
-
+//
+//
 //    public static void main(String[] args) {
 //        String gradeClass = "";
 //        String grade = "A";
@@ -487,8 +487,8 @@ public class oper1 {
 //        String result = (x % 2 ==0)? "짝수": "홀수";
 //        System.out.println(result);
 //    }
-
-    //    public static void main(String[] args) {
+//
+//        public static void main(String[] args) {
 //        int count = 0;
 //
 //        while (count <=3) {
@@ -543,6 +543,226 @@ public class oper1 {
 //            i++;
 //        } while (i<12);
 //    }
+//    public static void main(String[] args) {
+//        int sum = 0;
+//        int i = 1;
+//
+//        while (true){ // while (true) 계속 출혁함  >  break;될때 까지
+//            sum += i;
+//            if (sum > 100){
+//                System.out.println("합이 10보다 크면 종료: i=" + i+ " sum=" + sum);
+//                break;
+//
+//            }
+//            i++;
+//        }
+//        //초기 상태:
+//
+//    sum = 0
+//    i = 1
+//    첫 번째 루프 반복:
+//
+//    sum += i 실행: sum = 0 + 1 = 1
+//    if (sum > 10) 조건 확인: 1은 10보다 작으므로 루프 계속
+//    i++ 실행: i = 2
+//    두 번째 루프 반복:
+//
+//    sum += i 실행: sum = 1 + 2 = 3
+//    if (sum > 10) 조건 확인: 3은 10보다 작으므로 루프 계속
+//    i++ 실행: i = 3
+//    세 번째 루프 반복:
+//
+//    sum += i 실행: sum = 3 + 3 = 6
+//    if (sum > 10) 조건 확인: 6은 10보다 작으므로 루프 계속
+//    i++ 실행: i = 4
+//    네 번째 루프 반복:
+//
+//    sum += i 실행: sum = 6 + 4 = 10
+//    if (sum > 10) 조건 확인: 10은 10보다 작으므로 루프 계속
+//    i++ 실행: i = 5
+//    다섯 번째 루프 반복:
+//
+//    sum += i 실행: sum = 10 + 5 = 15
+//    if (sum > 10) 조건 확인: 15는 10보다 크므로 조건 만족
+//    System.out.println("합이 10보다 크면 종료: i= " + i + " sum= " + sum); 실행: "합이 10보다 크면 종료: i= 5 sum= 15" 출력
+//    break 실행: 루프 종료
+//    }
+//    public static void main(String[] args) {
+//        int i =1;
+//        while (i <= 5) {
+//            if (i==3) {
+//                i++;
+//                continue;
+//            }
+//            System.out.println(i);
+//            i++;
+//        }
+//    }
+//    public static void main(String[] args) {
+//        for (int i =1; i <=20; i++ ){
+//            System.out.println(i);
+//        }
+//    }
+//    public static void main(String[] args) {
+//        int sum =0;
+//        int endNum =3;
+//
+//        for(int i=1; i<=endNum; i++){
+//            sum += i;
+//            System.out.println("i"+i+" sum= "+sum);
+//        }
+//    }
+//
+//        public static void main(String[] args) {
+//        int sum = 0;
+//
+//        for (int i = 1; ;i++ ) { // 무한반복하는 코드
+//            sum += i;
+//            if (sum > 10) {
+//                System.out.println("합이 10보다 크면 종료: i=" + i + " sum=" + sum);
+//                break;
+//            }
+//
+//        }
+////    }
+//public static void main(String[] args) {
+//    for (int i = 0; i < 2; i++) {
+//        System.out.println("외부for 시작 i:"+ i );
+//        for (int j = 0; j < 3; j++) {
+//            System.out.println("-> 내부 for "+i +"-"+j);
+//        }
+//        System.out.println("외부 for 종료 i:"+i);
+//        System.out.println();
+//    }
+//}
+//    public static void main(String[] args) {
+//        int count = 1;
+//
+//        while (count <= 10) {
+//            System.out.println("count: " + count);
+//            count++;
+//        }
+////    }
+//    public static void main(String[] args) {
+//
+//        for (int count = 1; count <= 10; count++) {
+//            System.out.println(count);
+//        }
+//
+//
+//    }
+//    public static void main(String[] args) {
+//        int num = 2;
+//        int count = 1;
+//
+//        while (count<=10) {
+//            System.out.println(num);
+//        num+= 2;
+//        count++;}
+//    }
+//    public static void main(String[] args) {
+//        int num = 2;
+//        int count = 1;
+//
+//        while (count<=10) {
+//            System.out.println(num);
+//            num+= 2;
+//            count++;}
+////    }
+//    public static void main(String[] args) {
+//        int count =1;
+//
+//        while (count<=10) {
+//            System.out.println(2* count);
+//            count++;
+//        }
+////    }
+//    public static void main(String[] args) {
+//        for (int count = 1, num =2 ; count <= 10; num+=2, count++) {
+//            System.out.println(num);}
+//    }
+//    public static void main(String[] args) {
+//        int max =100;
+//
+//        int sum=0;
+//        int i= 1;
+//        while (i <=max){
+//            sum=sum+i;
+//            i++;
+//        }
+//        System.out.println(sum);
+//    }
+//}
+//    public static void main(String[] args) {
+//        int m = 10;
+//        if (true) {
+//            int x = 20;
+//            System.out.println("if m= " +m);
+//            System.out.println("if m= " +x);
+//        }
+//        System.out.println("ma"+x);
+//        System.out.println("ma"+m);
+//    }
+//    public static void main(String[] args) {
+//        int m=10;
+//        for(int i=0; i<2 ; i++){
+//            System.out.println("for m" +m);
+//            System.out.println("for i" +i);
+//        }
+//        System.out.println("mfor m" +m);
+//        System.out.println("mfor i" +i);
+//    }
+//}
+//    public static void main(String[] args) {
+//        int m =10;
+////        int temp =10;
+//        if (m>0) {
+//            int temp =m *2;
+//            System.out.println("temp="+temp );
+//        }
+////        System.out.println(temp);
+//        System.out.println("m="+m);
+////    }
+//public static void main(String[] args) {
+//    int intvalue =10;
+//    long longvalue ;
+//    double doublevalue ;
+//
+//    longvalue =intvalue;
+//    System.out.println(longvalue);
+//
+//    doublevalue =intvalue;
+//    System.out.println(doublevalue);
+//
+//    doublevalue =20l;
+//    System.out.println(doublevalue);
+//
+////}
+//public static void main(String[] args) {
+//    double doubleValue =1.5;
+//    int intValue =0;
+//
+//    intValue=(int) doubleValue;
+//    System.out.println(intValue);
+//}
 
+//    public static void main(String[] args) {
+//        int div1 = 3/2;
+//        System.out.println("div1 = " + div1);
+//
+//        double div2 = 3/2;
+//        System.out.println("div2 = " + div2);
+//
+//        double div3 = 3.0/2;
+//        System.out.println("div3 = " + div3);
+//
+//        double div4 = (double) 3/2;
+//        System.out.println("div4 = " + div4);
+//
+//        int a= 3;
+//        int b= 2;
+//        double result = (double) a/b;
+//        System.out.println("result = " + result);
+//    }
 
 }

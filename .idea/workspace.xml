@@ -79,7 +79,8 @@
       <workItem from="1717640719455" duration="19424000" />
       <workItem from="1717718200589" duration="445000" />
       <workItem from="1717765781468" duration="8454000" />
-      <workItem from="1717815361689" duration="7723000" />
+      <workItem from="1717815361689" duration="25444000" />
+      <workItem from="1717935156888" duration="7241000" />
     </task>
     <task id="LOCAL-00001" summary="check">
       <option name="closed" value="true" />
@@ -113,7 +114,15 @@
       <option name="project" value="LOCAL" />
       <updated>1717645018251</updated>
     </task>
-    <option name="localTasksCounter" value="5" />
+    <task id="LOCAL-00005" summary="check">
+      <option name="closed" value="true" />
+      <created>1717831503743</created>
+      <option name="number" value="00005" />
+      <option name="presentableId" value="LOCAL-00005" />
+      <option name="project" value="LOCAL" />
+      <updated>1717831503743</updated>
+    </task>
+    <option name="localTasksCounter" value="6" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -138,18 +147,23 @@
         </line-breakpoint>
         <line-breakpoint enabled="true" type="java-line">
           <url>file://$PROJECT_DIR$/src/perator/oper1.java</url>
-          <line>4</line>
-          <option name="timeStamp" value="6" />
-        </line-breakpoint>
-        <line-breakpoint enabled="true" type="java-line">
-          <url>file://$PROJECT_DIR$/src/perator/oper1.java</url>
           <line>491</line>
           <option name="timeStamp" value="7" />
         </line-breakpoint>
         <line-breakpoint enabled="true" type="java-line">
           <url>file://$PROJECT_DIR$/src/perator/oper1.java</url>
-          <line>3</line>
-          <option name="timeStamp" value="8" />
+          <line>4</line>
+          <option name="timeStamp" value="11" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" type="java-line">
+          <url>file://$PROJECT_DIR$/src/perator/oper1.java</url>
+          <line>5</line>
+          <option name="timeStamp" value="16" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" type="java-line">
+          <url>file://$PROJECT_DIR$/src/perator/oper1.java</url>
+          <line>7</line>
+          <option name="timeStamp" value="17" />
         </line-breakpoint>
       </breakpoints>
     </breakpoint-manager>
